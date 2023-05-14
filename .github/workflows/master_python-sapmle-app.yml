@@ -60,4 +60,4 @@ jobs:
         with:
           app-name: 'Python-Sapmle-APP'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_79B944C7DECF475F91A068A9FB5D3DCA }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_A0C1D37A0B834D499FC8C194D3FFD72C }}
