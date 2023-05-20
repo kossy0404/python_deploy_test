@@ -5,7 +5,7 @@ app = Flask(__name__)
 @app.route("/", methods=["GET", "POST"])
 def main_page():
     if request.method == 'GET':
-        text = "ここに結果が出力されます"
+        text = "ここに入力値が出力されますよ by Kossy"
         return render_template("page.html",text=text)
     elif request.method == 'POST':
         name = request.form["name"]
